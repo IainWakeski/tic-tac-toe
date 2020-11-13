@@ -1,0 +1,45 @@
+html {
+    font-family: sans-serif, serif, monospace;
+    background-color: darkgray;
+    text-align: center;
+}
+
+/* Grid Styles */
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    background-color: purple;
+}
+
+td {
+    background-color: skyblue;
+    padding: 2.9em;
+    border: 1px solid black;
+}
+
+/* Restart Button */
+#restart {
+    padding: 0.8em;
+    font-size: 19px;
+    font-weight: 600;
+    border: 2px solid black;
+    margin-top: 36px;
+    background-color: skyblue;
+}
+#restart:active {
+    padding: 0.6em;
+    font-size: 19px;
+    background-color: red;
+}
+#restart:hover {
+    cursor: pointer;
+}
+
+/* Footer Style */
+footer {
+    margin-top: 36px;
+    font-size: 21px;
+    font-weight: 600;
+    color: green;
+}

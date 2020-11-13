@@ -14,7 +14,7 @@
     <div class="container">
         <h1>Tic-Tac-Toe!</h1>
         <h2>It is player x's turn.</h2>
-        <table id="grid">
+        <table id="board">
             <tr>
                 <td id="slot1">-</td>
                 <td id="slot2">-</td>
@@ -32,8 +32,8 @@
             </tr>
         </table>
     </div>
-    <input type="button" value="Restart">
-    <footer>Player x wins!</footer>
+    <button value="Restart" id="restart" onclick="reset_board()">Restart</button>
+    <footer id="winner"></footer>
     <script src="script.js"></script>
 </body>
 </html>
